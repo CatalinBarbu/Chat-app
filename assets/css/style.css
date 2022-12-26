@@ -1,0 +1,197 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.radiusColor,
+.samuel,
+.footerOption {
+  background: rgba(95, 22, 235, 1);
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(95, 22, 235, 1),
+    rgba(251, 39, 228, 1)
+  );
+  background: -moz-linear-gradient(
+    bottom,
+    rgba(95, 22, 235, 1),
+    rgba(251, 39, 228, 1)
+  );
+  background: linear-gradient(
+    to top,
+    rgba(95, 22, 235, 1),
+    rgba(251, 39, 228, 1)
+  );
+}
+body {
+  background-color: rgb(247, 238, 228);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.radiusColor {
+  height: 90vh;
+  width: 100%;
+  max-width: 550px;
+  font-size: 1.4rem;
+  border-radius: 0 0 350px 350px;
+}
+.backgroundColor {
+  background-color: blue;
+  height: 90vh;
+  width: 100%;
+  max-width: 450px;
+  font-size: 1.4rem;
+  border-radius: 0 0 350px 350px;
+  opacity: 0.1;
+}
+.flexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.handyRand {
+  border: 15px solid white;
+  border-radius: 38px 38px 38px 38px;
+  margin: 0 180px 0 0;
+  background-color: whitesmoke;
+  box-shadow: 10px 15px 55px 1px rgb(162, 162, 162);
+}
+
+.datenHandy {
+  width: 100%;
+}
+.flexboxSamuel img {
+  width: 55px;
+  border: 1px solid white;
+  border-radius: 30px 30px 30px 30px;
+}
+.borderRadiusSamuel {
+  width: 190px;
+  height: 30px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 0 0 23px 23px;
+  margin-bottom: 20px;
+}
+.foto {
+  background-image: url("/images/avatar.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 25px 25px 25px 25px;
+  margin: 0 15px 0 15px;
+}
+.samuel {
+  color: white;
+  border-radius: 20px 20px 0 0;
+  height: 105px;
+}
+.flexboxContent span:first-of-type {
+  font-size: 18px;
+  font-weight: bold;
+}
+.flexboxContent span:nth-of-type(2) {
+  font-size: 14px;
+  opacity: 0.6;
+}
+.flexboxContent span:nth-of-type(3) {
+  padding-left: 90px;
+}
+
+.flexboxSamuel {
+  display: flex;
+}
+.beschreibungMiete {
+  width: 100%;
+  max-width: 400px;
+}
+.handyHeader,
+.footerContent {
+  width: 200px;
+}
+.handyHeader p,
+.footerContent {
+  background-color: aqua;
+  opacity: 0.5;
+  color: blue;
+  margin: 15px 0 10px 10px;
+  padding: 5px 0 5px 5px;
+  border-radius: 15px 15px 15px 15px;
+  font-size: 15px;
+}
+.imgHeader img {
+  width: 50px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 5px;
+}
+.imgHeader {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 10px 0 0;
+}
+.mainContent {
+  width: 195px;
+  margin-left: auto;
+  text-align: center;
+}
+.mainContent p {
+  background-color: white;
+  border-radius: 15px 15px 15px 15px;
+  margin: 15px 0 10px 10px;
+  padding: 5px 0 5px 5px;
+}
+.footerOption {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  padding: 12px;
+  margin: 10px;
+  border-radius: 10px 10px 10px 0px;
+  color: white;
+}
+.footerOption p span::before {
+  content: "⃝";
+  padding: 0 10px 0 15px;
+}
+.footerOption p:last-of-type {
+  font-weight: bold;
+  font-size: 21px;
+}
+.typeM {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  margin: 20px auto 10px;
+  padding: 15px 10px 0 20px;
+  background-color: white;
+  border-radius: 25px 25px 25px 25px;
+}
+.typeM p:first-of-type {
+  opacity: 0.3;
+}
+.typeM p:last-of-type {
+  font-weight: bold;
+  font-size: 21px;
+  color: white;
+  background-color: black;
+  padding: 3px 9px;
+  border: 1px solid blue;
+  border-radius: 85px 85px 85px 85px;
+}
+.beschreibungMiete h1 {
+  font-size: 3.5rem;
+}
+.beschreibungMiete p {
+  font-size: 1.1rem;
+  padding-top: 50px;
+  opacity: 0.5;
+  font-weight: bold;
+}
